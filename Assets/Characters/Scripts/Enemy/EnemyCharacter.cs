@@ -4,6 +4,8 @@ using System.Collections.Generic;
 
 public class EnemyCharacter : MonoBehaviour {
 
+	public int money;
+
 	public float speed;
 	//public float minDis, maxDis;
 	//public float range;
@@ -148,6 +150,10 @@ public class EnemyCharacter : MonoBehaviour {
 		animator.SetBool("death", true);
 
 		Destroy(this.gameObject, 3);
+	}
+
+	void OnDestroy (){
+		Singleton.money.Set_money(Singleton.money.money + money);
 	}
 
 }

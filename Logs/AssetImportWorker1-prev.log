@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-52287
+55128
 Successfully changed project path to: /Users/elfred/Downloads/UnityChenTrip
 /Users/elfred/Downloads/UnityChenTrip
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -66,7 +66,7 @@ Cannot set VR devices because the platform passed isn't supported by Unity.
 Cannot set VR devices because the platform passed isn't supported by Unity.
 Cannot set VR devices because the platform passed isn't supported by Unity.
 Cannot set VR devices because the platform passed isn't supported by Unity.
-Refreshing native plugins compatible for Editor in 51.24 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 53.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.2f1c1 (7ac240095d88)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.2f1c1/Unity.app/Contents/Resources/UnitySubsystems
@@ -81,80 +81,80 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.2f1c1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.2f1c1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.2f1c1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56782
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56525
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.2f1c1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.2f1c1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.002413 seconds.
+Registered in 0.000816 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 51.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 55.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.474 seconds
+- Completed reload, in  1.684 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1476ms)
-		BeginReloadAssembly (175ms)
+	ReloadAssembly (1686ms)
+		BeginReloadAssembly (156ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1046ms)
-			LoadAssemblies (173ms)
+			CreateAndSetChildDomain (4ms)
+		EndReloadAssembly (1248ms)
+			LoadAssemblies (152ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (144ms)
+			SetupTypeCache (148ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (715ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (884ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (52ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (56ms)
 				BeforeProcessingInitializeOnLoad (4ms)
-				ProcessInitializeOnLoadAttributes (474ms)
-				ProcessInitializeOnLoadMethodAttributes (164ms)
+				ProcessInitializeOnLoadAttributes (586ms)
+				ProcessInitializeOnLoadMethodAttributes (212ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005129 seconds.
+Registered in 0.001219 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.194 seconds
+- Completed reload, in  2.554 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2197ms)
-		BeginReloadAssembly (254ms)
+	ReloadAssembly (2557ms)
+		BeginReloadAssembly (282ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (39ms)
+			DisableScriptedObjects (43ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (1645ms)
-			LoadAssemblies (125ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (1931ms)
+			LoadAssemblies (131ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (249ms)
+			SetupTypeCache (258ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (1043ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (1259ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (818ms)
-				ProcessInitializeOnLoadMethodAttributes (111ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (992ms)
+				ProcessInitializeOnLoadMethodAttributes (137ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -170,13 +170,13 @@ Cannot set VR devices because the platform passed isn't supported by Unity.
 Cannot set VR devices because the platform passed isn't supported by Unity.
 Cannot set VR devices because the platform passed isn't supported by Unity.
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.2f1c1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2109 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 28 unused Assets / (0.8 MB). Loaded Objects now: 2674.
-Memory consumption went from 334.0 MB to 333.3 MB.
-Total: 3.347792 ms (FindLiveObjects: 0.144458 ms CreateObjectMapping: 0.046333 ms MarkObjects: 2.634792 ms  DeleteObjects: 0.521042 ms)
+Memory consumption went from 336.2 MB to 335.5 MB.
+Total: 3.719208 ms (FindLiveObjects: 0.203042 ms CreateObjectMapping: 0.048125 ms MarkObjects: 2.972000 ms  DeleteObjects: 0.494708 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -190,10 +190,10 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 499713.199617 seconds.
-  path: Assets/PureNature/Prefabs/UI/GameObject.prefab
-  artifactKey: Guid(f56587688b7c2494581165e2b3afd7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PureNature/Prefabs/UI/GameObject.prefab using Guid(f56587688b7c2494581165e2b3afd7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b0384ad90c2d5019970416852255c1') in 0.183213 seconds 
+  Time since last request: 503118.324991 seconds.
+  path: Assets/Scenes/Country_Level/NavMesh.asset
+  artifactKey: Guid(fe25dddb087ef384082a298c7602cf15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Country_Level/NavMesh.asset using Guid(fe25dddb087ef384082a298c7602cf15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd0c624eb55e164dbfd5f8487935c9d3') in 0.596699 seconds 
 ========================================================================
 Received Prepare
 Cannot set VR devices because the platform passed isn't supported by Unity.
@@ -207,48 +207,12 @@ Cannot set VR devices because the platform passed isn't supported by Unity.
 Cannot set VR devices because the platform passed isn't supported by Unity.
 Cannot set VR devices because the platform passed isn't supported by Unity.
 Cannot set VR devices because the platform passed isn't supported by Unity.
-Registering precompiled user dll's ...
-Registered in 0.001250 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.10 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.094 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2096ms)
-		BeginReloadAssembly (244ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (36ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (60ms)
-		EndReloadAssembly (1617ms)
-			LoadAssemblies (114ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (251ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (1043ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (33ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (810ms)
-				ProcessInitializeOnLoadMethodAttributes (114ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.92 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2052 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (0.8 MB). Loaded Objects now: 2679.
-Memory consumption went from 333.5 MB to 332.7 MB.
-Total: 3.001459 ms (FindLiveObjects: 0.160666 ms CreateObjectMapping: 0.045542 ms MarkObjects: 2.340584 ms  DeleteObjects: 0.452959 ms)
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (0.8 MB). Loaded Objects now: 2674.
+Memory consumption went from 294.8 MB to 294.0 MB.
+Total: 3.776958 ms (FindLiveObjects: 0.155042 ms CreateObjectMapping: 0.044959 ms MarkObjects: 3.144166 ms  DeleteObjects: 0.431917 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -273,180 +237,12 @@ Cannot set VR devices because the platform passed isn't supported by Unity.
 Cannot set VR devices because the platform passed isn't supported by Unity.
 Cannot set VR devices because the platform passed isn't supported by Unity.
 Cannot set VR devices because the platform passed isn't supported by Unity.
-Registering precompiled user dll's ...
-Registered in 0.001525 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.120 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2122ms)
-		BeginReloadAssembly (266ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (38ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (57ms)
-		EndReloadAssembly (1623ms)
-			LoadAssemblies (135ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (243ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (1057ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (33ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (823ms)
-				ProcessInitializeOnLoadMethodAttributes (114ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2052 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (0.8 MB). Loaded Objects now: 2682.
-Memory consumption went from 333.7 MB to 333.0 MB.
-Total: 2.906250 ms (FindLiveObjects: 0.145375 ms CreateObjectMapping: 0.044875 ms MarkObjects: 2.277666 ms  DeleteObjects: 0.437458 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Registering precompiled user dll's ...
-Registered in 0.001293 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.143 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2144ms)
-		BeginReloadAssembly (251ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (39ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (61ms)
-		EndReloadAssembly (1660ms)
-			LoadAssemblies (116ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (244ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (1076ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (32ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (822ms)
-				ProcessInitializeOnLoadMethodAttributes (130ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.09 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2052 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (0.8 MB). Loaded Objects now: 2685.
-Memory consumption went from 333.9 MB to 333.1 MB.
-Total: 2.914542 ms (FindLiveObjects: 0.162375 ms CreateObjectMapping: 0.045750 ms MarkObjects: 2.248125 ms  DeleteObjects: 0.456916 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Registering precompiled user dll's ...
-Registered in 0.001410 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.147 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2161ms)
-		BeginReloadAssembly (234ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (35ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (61ms)
-		EndReloadAssembly (1672ms)
-			LoadAssemblies (106ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (243ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (1047ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (34ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (820ms)
-				ProcessInitializeOnLoadMethodAttributes (108ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2052 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (0.8 MB). Loaded Objects now: 2688.
-Memory consumption went from 334.1 MB to 333.3 MB.
-Total: 3.008042 ms (FindLiveObjects: 0.141583 ms CreateObjectMapping: 0.100083 ms MarkObjects: 2.302458 ms  DeleteObjects: 0.462917 ms)
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (0.8 MB). Loaded Objects now: 2674.
+Memory consumption went from 294.8 MB to 294.0 MB.
+Total: 9.480792 ms (FindLiveObjects: 0.241417 ms CreateObjectMapping: 0.046583 ms MarkObjects: 8.701666 ms  DeleteObjects: 0.489958 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 

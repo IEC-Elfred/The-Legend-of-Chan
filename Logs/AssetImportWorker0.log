@@ -1,30 +1,23 @@
-Unity Editor version:    2021.3.2f1c1 (7ac240095d88)
-Branch:                  2021.3/china_unity/release
-Build type:              Release
-Batch mode:              YES
-macOS version:           Version 12.3.1 (Build 21E258)
-Darwin version:          21.4.0
-Architecture:            x86_64
-Running under Rosetta:   YES
-Available memory:        32768 MB
 Using pre-set license
-Pro License: YES
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.2f1c1 (7ac240095d88) revision 8045120'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16254 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2021.3.2f1c1/Unity.app/Contents/MacOS/Unity
+C:\Program Files\Unity\Hub\Editor\2021.3.2f1c1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/elfred/Downloads/UnityChenTrip
+C:/Users/Mr.liu/Documents/GitHub/The-Legend-of-Chan
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55128
-Successfully changed project path to: /Users/elfred/Downloads/UnityChenTrip
-/Users/elfred/Downloads/UnityChenTrip
+10820
+Successfully changed project path to: C:/Users/Mr.liu/Documents/GitHub/The-Legend-of-Chan
+C:/Users/Mr.liu/Documents/GitHub/The-Legend-of-Chan
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -66,95 +59,96 @@ Cannot set VR devices because the platform passed isn't supported by Unity.
 Cannot set VR devices because the platform passed isn't supported by Unity.
 Cannot set VR devices because the platform passed isn't supported by Unity.
 Cannot set VR devices because the platform passed isn't supported by Unity.
-Refreshing native plugins compatible for Editor in 61.27 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 289.24 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.2f1c1 (7ac240095d88)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.2f1c1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/elfred/Downloads/UnityChenTrip/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.2f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Mr.liu/Documents/GitHub/The-Legend-of-Chan/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
- preferred device: Apple M1 Pro (high power)
-Metal devices available: 1
-0: Apple M1 Pro (high power)
-Using device Apple M1 Pro (high power)
-Initializing Metal device caps: Apple M1 Pro
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX250 (ID=0x1d13)
+    Vendor:   NVIDIA
+    VRAM:     1983 MB
+    Driver:   30.0.14.7298
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.2f1c1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.2f1c1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
-Mono config path = '/Applications/Unity/Hub/Editor/2021.3.2f1c1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56523
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56096
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2021.3.2f1c1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2021.3.2f1c1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.003036 seconds.
-Native extension for OSXStandalone target not found
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.028405 seconds.
+Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 55.86 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 143.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.717 seconds
+- Completed reload, in  1.871 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1719ms)
-		BeginReloadAssembly (194ms)
+	ReloadAssembly (1871ms)
+		BeginReloadAssembly (276ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (4ms)
-		EndReloadAssembly (1232ms)
-			LoadAssemblies (191ms)
+		EndReloadAssembly (1229ms)
+			LoadAssemblies (246ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (151ms)
+			SetupTypeCache (198ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (860ms)
+			RebuildScriptCaches (105ms)
+			SetupLoadedEditorAssemblies (820ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (28ms)
+				InitializePlatformSupportModulesInManaged (20ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (56ms)
-				BeforeProcessingInitializeOnLoad (4ms)
-				ProcessInitializeOnLoadAttributes (556ms)
-				ProcessInitializeOnLoadMethodAttributes (215ms)
+				RefreshPlugins (144ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (489ms)
+				ProcessInitializeOnLoadMethodAttributes (165ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006383 seconds.
+Registered in 0.029154 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.10 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.586 seconds
+- Completed reload, in  4.018 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2589ms)
-		BeginReloadAssembly (284ms)
+	ReloadAssembly (4021ms)
+		BeginReloadAssembly (479ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (43ms)
+			DisableScriptedObjects (16ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (1958ms)
-			LoadAssemblies (149ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (3031ms)
+			LoadAssemblies (419ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (260ms)
+			SetupTypeCache (813ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (76ms)
-			SetupLoadedEditorAssemblies (1270ms)
+			RebuildScriptCaches (258ms)
+			SetupLoadedEditorAssemblies (1372ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
+				InitializePlatformSupportModulesInManaged (33ms)
 				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (115ms)
-				ProcessInitializeOnLoadAttributes (984ms)
-				ProcessInitializeOnLoadMethodAttributes (147ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (269ms)
+				ProcessInitializeOnLoadAttributes (909ms)
+				ProcessInitializeOnLoadMethodAttributes (106ms)
+				AfterProcessingInitializeOnLoad (51ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -169,31 +163,90 @@ Cannot set VR devices because the platform passed isn't supported by Unity.
 Cannot set VR devices because the platform passed isn't supported by Unity.
 Cannot set VR devices because the platform passed isn't supported by Unity.
 Cannot set VR devices because the platform passed isn't supported by Unity.
-Launching external process: /Applications/Unity/Hub/Editor/2021.3.2f1c1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
+Refreshing native plugins compatible for Editor in 1.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2109 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (0.8 MB). Loaded Objects now: 2674.
-Memory consumption went from 336.2 MB to 335.4 MB.
-Total: 4.659750 ms (FindLiveObjects: 0.233833 ms CreateObjectMapping: 0.046709 ms MarkObjects: 3.877625 ms  DeleteObjects: 0.500125 ms)
+Unloading 2110 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (0.6 MB). Loaded Objects now: 2646.
+Memory consumption went from 212.9 MB to 212.3 MB.
+Total: 20.458400 ms (FindLiveObjects: 2.263600 ms CreateObjectMapping: 1.578400 ms MarkObjects: 16.019500 ms  DeleteObjects: 0.594400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 503118.325413 seconds.
-  path: Assets/Scenes/Halloween_Level/NavMesh.asset
-  artifactKey: Guid(f91f016c3595f15409d42f0bab286ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Halloween_Level/NavMesh.asset using Guid(f91f016c3595f15409d42f0bab286ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95709a3256d54d21c30e6c25908bf763') in 0.596339 seconds 
+  Time since last request: 45020.305822 seconds.
+  path: Assets/Characters/Scripts/Enemy/EnemyCharacter.cs
+  artifactKey: Guid(734df6dd88dec754998b64a6e4c4c4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Scripts/Enemy/EnemyCharacter.cs using Guid(734df6dd88dec754998b64a6e4c4c4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc01b90a03b01cd2e5759a58606b29cc') in 0.165621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.601515 seconds.
+  path: Assets/Characters/Scripts/Enemy/EnemyCharacter.cs
+  artifactKey: Guid(734df6dd88dec754998b64a6e4c4c4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Scripts/Enemy/EnemyCharacter.cs using Guid(734df6dd88dec754998b64a6e4c4c4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba868cf63c65f86276f06e6788303ad') in 0.003373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 105.219670 seconds.
+  path: Assets/Inventory/scripts
+  artifactKey: Guid(ef8eb732ba1c84f49b21f7a96450458c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inventory/scripts using Guid(ef8eb732ba1c84f49b21f7a96450458c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36663ae1113e9393d3d4a6925a76ade') in 0.003550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.008255 seconds.
+  path: Assets/Prefabs/DamageTextPrefab.prefab
+  artifactKey: Guid(84cfcdca5cea09747a62ca367cf3cbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DamageTextPrefab.prefab using Guid(84cfcdca5cea09747a62ca367cf3cbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa5c0312e48cf44288b9a24de1bd2b8') in 0.037241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefabs/TrollPrefab.prefab
+  artifactKey: Guid(69859d713ed40174ab8a286c68bce1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TrollPrefab.prefab using Guid(69859d713ed40174ab8a286c68bce1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27fbc82434cda0e425e285451ec7a32e') in 0.344246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.201523 seconds.
+  path: Assets/Prefabs/GoblinPrefab.prefab
+  artifactKey: Guid(e817bc6a7e5d713428c4238d7ba9cf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GoblinPrefab.prefab using Guid(e817bc6a7e5d713428c4238d7ba9cf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5211c6b2759a160d69815a3d24428fe8') in 0.138138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.226245 seconds.
+  path: Assets/Prefabs/GoblinPrefab.prefab
+  artifactKey: Guid(e817bc6a7e5d713428c4238d7ba9cf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GoblinPrefab.prefab using Guid(e817bc6a7e5d713428c4238d7ba9cf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c059bf04501904327f4fcee6c3ab6286') in 0.032996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.180385 seconds.
+  path: Assets/Prefabs/TrollPrefab.prefab
+  artifactKey: Guid(69859d713ed40174ab8a286c68bce1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TrollPrefab.prefab using Guid(69859d713ed40174ab8a286c68bce1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f65010f0ff5839d25f786329c7a639') in 0.051950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.075173 seconds.
+  path: Assets/Scenes/Scene_Demo.unity
+  artifactKey: Guid(d57973a1bebdd054cbe0a992d93ba9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene_Demo.unity using Guid(d57973a1bebdd054cbe0a992d93ba9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '125547a60007f656e4cca1f625bb12a3') in 0.003899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 236.551598 seconds.
+  path: Assets/Scenes/Halloween_Level.unity
+  artifactKey: Guid(ec3d8be4b4aea48e8953198ee4f7e6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Halloween_Level.unity using Guid(ec3d8be4b4aea48e8953198ee4f7e6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff47d703f554bfbeda943c0ca4b3071') in 0.003868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 283.825925 seconds.
+  path: Assets/Characters/Scripts
+  artifactKey: Guid(89921c52a99420147a28abe75e09ec7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Scripts using Guid(89921c52a99420147a28abe75e09ec7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3589221698bd6db026978ecd029edec') in 0.004245 seconds 
 ========================================================================
 Received Prepare
 Cannot set VR devices because the platform passed isn't supported by Unity.
@@ -207,50 +260,80 @@ Cannot set VR devices because the platform passed isn't supported by Unity.
 Cannot set VR devices because the platform passed isn't supported by Unity.
 Cannot set VR devices because the platform passed isn't supported by Unity.
 Cannot set VR devices because the platform passed isn't supported by Unity.
-Refreshing native plugins compatible for Editor in 4.09 ms, found 3 plugins.
+Registering precompiled user dll's ...
+Registered in 0.014726 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (0.8 MB). Loaded Objects now: 2674.
-Memory consumption went from 294.8 MB to 294.0 MB.
-Total: 3.994667 ms (FindLiveObjects: 0.149250 ms CreateObjectMapping: 0.042459 ms MarkObjects: 3.356875 ms  DeleteObjects: 0.445333 ms)
+Mono: successfully reloaded assembly
+- Completed reload, in  1.162 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1162ms)
+		BeginReloadAssembly (204ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (789ms)
+			LoadAssemblies (134ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (220ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (363ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (219ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2056 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (0.6 MB). Loaded Objects now: 2662.
+Memory consumption went from 212.8 MB to 212.3 MB.
+Total: 6.043900 ms (FindLiveObjects: 0.341800 ms CreateObjectMapping: 0.213900 ms MarkObjects: 5.080700 ms  DeleteObjects: 0.404600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Refreshing native plugins compatible for Editor in 3.98 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (0.8 MB). Loaded Objects now: 2674.
-Memory consumption went from 294.8 MB to 294.0 MB.
-Total: 9.227125 ms (FindLiveObjects: 0.235375 ms CreateObjectMapping: 0.043333 ms MarkObjects: 8.440458 ms  DeleteObjects: 0.506708 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 28.369606 seconds.
+  path: Assets/Prefabs/TrollPrefab.prefab
+  artifactKey: Guid(69859d713ed40174ab8a286c68bce1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TrollPrefab.prefab using Guid(69859d713ed40174ab8a286c68bce1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db2c91c216844dd7694aa8b89d6b503e') in 0.192440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.163649 seconds.
+  path: Assets/Prefabs/GoblinPrefab.prefab
+  artifactKey: Guid(e817bc6a7e5d713428c4238d7ba9cf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GoblinPrefab.prefab using Guid(e817bc6a7e5d713428c4238d7ba9cf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90f32a7e7b7b310601de4bf9b27e6f02') in 0.048847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.361663 seconds.
+  path: Assets/Prefabs/TrollPrefab.prefab
+  artifactKey: Guid(69859d713ed40174ab8a286c68bce1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TrollPrefab.prefab using Guid(69859d713ed40174ab8a286c68bce1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4702a17a278deeffdbe5050ed5004af8') in 0.058096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.641373 seconds.
+  path: Assets/Scenes/Scene_Demo.unity
+  artifactKey: Guid(d57973a1bebdd054cbe0a992d93ba9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene_Demo.unity using Guid(d57973a1bebdd054cbe0a992d93ba9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19aad12a3b70dfea99cf6d48be64b44c') in 0.002841 seconds 
